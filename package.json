@@ -1,23 +1,23 @@
 {
-  "name": "sn.picker",
-  "description": "API for adding stock watches to the stocknet system.",
+  "name": "sn.messageWatch",
+  "description": "Watches all messages on stocknet and writes them to stdout",
   "version": "0.1.0",
-  "homepage": "https://github.com/stocknet/picker",
+  "homepage": "https://github.com/jambr/sn/picker",
   "author": {
     "name": "Karl Stoney",
     "email": "karl@jambr.co.uk"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stocknet/picker.git"
+    "url": "git://github.com/jambr/sn.picker.git"
   },
   "bugs": {
-    "url": "https://github.com/stocknet/picker/issues"
+    "url": "https://github.com/jambr/sn.picker/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/stocknet/picker/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jambr/sn.picker/blob/master/LICENSE-MIT"
     }
   ],
   "main": "index.js",

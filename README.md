@@ -1,15 +1,13 @@
-# sn.picker 
-API for adding stock watches to the stocknet system.
+# sn.messageWatch 
+Subscribers to all messages on the system and writes to stdout
 
 ## Getting Started
-Install the module with: `npm install picker`
-
-## Messages Published
-  - sn.picker.symbol.create
-  - sn.picker.symbol.delete
+DEBUG=* node index.js
 
 ## Messages Subscribed To
-  - none
+  - sn.*
+  - sn.*.*
+  - sn.*.*.*
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
